@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Pack 500 Prompts ChatGPT Pro - 47€</title>
+  <meta name="description" content="500 prompts ChatGPT professionnels pour booster votre productivité. Marketing, vente, contenu, code et plus encore.">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f8f9fa; color: #222; margin:0; }
+    .container { max-width: 800px; margin: 0 auto; padding: 2rem; background: #fff; border-radius: 10px; box-shadow: 0 2px 10px #0001; }
+    h1 { color: #667eea; }
+    .price { font-size: 2rem; color: #764ba2; font-weight: bold; }
+    .cta { display: inline-block; background: #667eea; color: #fff; padding: 1rem 2rem; border-radius: 30px; text-decoration: none; font-weight: bold; margin: 2rem 0; }
+    ul { margin: 1rem 0 2rem 2rem; }
+    .section { margin-bottom: 2.5rem; }
+    .guarantee { background: #f0fff4; color: #276749; padding: 1rem; border-radius: 8px; margin: 2rem 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Pack 500 Prompts ChatGPT Pro</h1>
+    <div class="price">47€</div>
+    <p>Transformez votre utilisation de l'IA avec 500 prompts professionnels testés et optimisés pour tous vos besoins business.</p>
+    <a class="cta" href="#">OBTENIR LE PACK MAINTENANT</a>
+    <div class="section">
+      <h2>Ce que vous obtenez :</h2>
+      <ul>
+        <li>500 prompts prêts à l'emploi</li>
+        <li>10 catégories (Marketing, Vente, Contenu, Code...)</li>
+        <li>Guide d'utilisation complet</li>
+        <li>Mises à jour gratuites à vie</li>
+        <li>Bonus : 100 prompts Midjourney</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Pourquoi ce pack ?</h2>
+      <ul>
+        <li>Gagnez 10h/semaine</li>
+        <li>Résultats professionnels dès la première utilisation</li>
+        <li>Copiez-collez, c'est prêt !</li>
+      </ul>
+    </div>
+    <div class="guarantee">
+      ✓ Garantie satisfait ou remboursé 30 jours
+    </div>
+    <p><a href="index.html">← Retour à l'accueil</a></p>
+  </div>
+</body>
+</html>
