@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Planificateur de Contenu 12 Mois - 24€</title>
+  <meta name="description" content="365 idées de contenu + templates pour tous les réseaux sociaux. Ne manquez plus jamais d'inspiration !">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f8f9fa; color: #222; margin:0; }
+    .container { max-width: 800px; margin: 0 auto; padding: 2rem; background: #fff; border-radius: 10px; box-shadow: 0 2px 10px #0001; }
+    h1 { color: #f5576c; }
+    .price { font-size: 2rem; color: #f093fb; font-weight: bold; }
+    .cta { display: inline-block; background: #f5576c; color: #fff; padding: 1rem 2rem; border-radius: 30px; text-decoration: none; font-weight: bold; margin: 2rem 0; }
+    ul { margin: 1rem 0 2rem 2rem; }
+    .section { margin-bottom: 2.5rem; }
+    .guarantee { background: #f0fff4; color: #276749; padding: 1rem; border-radius: 8px; margin: 2rem 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Planificateur de Contenu 12 Mois</h1>
+    <div class="price">24€</div>
+    <p>365 idées de contenu + templates pour créer du contenu engageant toute l'année.</p>
+    <a class="cta" href="#">OBTENIR LE PLANIFICATEUR</a>
+    <div class="section">
+      <h2>Ce que vous obtenez :</h2>
+      <ul>
+        <li>365 idées de contenu (1 par jour)</li>
+        <li>Templates pour Instagram, LinkedIn, TikTok, YouTube</li>
+        <li>Calendrier éditorial Notion</li>
+        <li>Stratégie de contenu incluse</li>
+        <li>Bonus : 50 hooks viraux</li>
+      </ul>
+    </div>
+    <div class="guarantee">
+      ✓ Garantie satisfait ou remboursé 30 jours
+    </div>
+    <p><a href="index.html">← Retour à l'accueil</a></p>
+  </div>
+</body>
+</html>
