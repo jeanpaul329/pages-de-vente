@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Marketing Digital 2026 - 37€</title>
+    <meta name="description" content="Maîtrisez tous les canaux d'acquisition et multipliez vos clients par 10. Guide complet SEO, SEA, Social Media avec templates inclus.">
+    <script src="https://js.stripe.com/v3/"></script>
+    <style>
+        /* Même CSS que guide-automatisation.html */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; background: #f7fafc; }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        .back-link { color: #667eea; text-decoration: none; margin-bottom: 30px; display: inline-flex; align-items: center; font-weight: 600; font-size: 1.1em; transition: all 0.3s ease; }
+        .back-link:hover { transform: translateX(-5px); }
+        .back-link::before { content: "←"; margin-right: 8px; font-size: 1.3em; }
+        .product-header { background: white; padding: 60px 50px; border-radius: 25px; box-shadow: 0 10px 40px rgba(0,0,0,0.1); margin-bottom: 40px; text-align: center; position: relative; overflow: hidden; }
+        .product-header::before { content: "📱"; position: absolute; top: -50px; right: -50px; font-size: 15em; opacity: 0.05; }
+        .badge { display: inline-block; background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%); color: white; padding: 8px 20px; border-radius: 20px; font-size: 0.9em; font-weight: bold; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }
+        h1 { font-size: 3em; color: #2d3748; margin-bottom: 20px; line-height: 1.2; }
+        .price { font-size: 4em; color: #667eea; font-weight: bold; margin: 30px 0; }
+        .subtitle { font-size: 1.4em; color: #718096; margin-bottom: 30px; line-height: 1.6; }
+        .cta-button { display: inline-block; padding: 22px 70px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 50px; font-size: 1.4em; font-weight: bold; transition: all 0.3s ease; text-transform: uppercase; letter-spacing: 1.5px; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3); border: none; cursor: pointer; }
+        .cta-button:hover { transform: translateY(-3px); box-shadow: 0 15px 40px rgba(102, 126, 234, 0.5); }
+        .content-section { background: white; padding: 50px; border-radius: 25px; box-shadow: 0 10px 40px rgba(0,0,0,0.1); margin-bottom: 30px; }
+        h2 { color: #2d3748; margin-bottom: 25px; font-size: 2em; border-left: 5px solid #667eea; padding-left: 20px; }
+        ul { list-style: none; margin: 25px 0; }
+        ul li { padding: 15px 0; border-bottom: 1px solid #e2e8f0; font-size: 1.15em; color: #4a5568; line-height: 1.6; }
+        ul li:last-child { border-bottom: none; }
+        ul li:before { content: "✓"; color: #48bb78; font-weight: bold; margin-right: 15px; font-size: 1.4em; }
+        .guarantee { background: linear-gradient(135deg, #f0fff4 0%, #c6f6d5 100%); border: 3px solid #48bb78; border-radius: 20px; padding: 30px; text-align: center; color: #22543d; font-weight: 600; font-size: 1.2em; margin: 40px 0; box-shadow: 0 5px 20px rgba(72, 187, 120, 0.2); }
+        .guarantee::before { content: "🛡️"; font-size: 3em; display: block; margin-bottom: 15px; }
+        .upsell { background: linear-gradient(135deg, #ffd93d 0%, #ffb347 100%); padding: 50px; border-radius: 25px; margin-top: 50px; text-align: center; box-shadow: 0 10px 40px rgba(255, 217, 61, 0.3); }
+        .upsell h3 { color: #2d3748; margin-bottom: 20px; font-size: 2em; }
+        .upsell p { color: #4a5568; margin-bottom: 25px; font-size: 1.2em; }
+        .upsell-btn { display: inline-block; padding: 18px 50px; background: white; color: #2d3748; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 1.2em; transition: all 0.3s ease; box-shadow: 0 5px 20px rgba(0,0,0,0.2); }
+        .upsell-btn:hover { transform: scale(1.05); box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+        @media (max-width: 768px) {
+            .container { padding: 20px 15px; }
+            .product-header, .content-section { padding: 30px 25px; }
+            h1 { font-size: 2em; }
+            .price { font-size: 3em; }
+            .cta-button { padding: 18px 40px; font-size: 1.1em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">Retour à l'accueil</a>
+        
+        <div class="product-header">
+            <span class="badge">🔥 Nouveau</span>
+            <h1>📱 Guide Marketing Digital 2026</h1>
+            <p class="subtitle">Maîtrisez tous les canaux d'acquisition et multipliez vos clients par 10 avec les stratégies qui fonctionnent vraiment.</p>
+            <div class="price">37€</div>
+            <button class="cta-button" onclick="buyProduct()">Obtenir le guide</button>
+        </div>
+        
+        <div class="content-section">
+            <h2>📦 Ce que vous obtenez</h2>
+            <ul>
+                <li><strong>Guide PDF de 140 pages</strong> - Stratégies marketing complètes et actionnables</li>
+                <li><strong>Stratégies SEO, SEA, Social Media</strong> - Tous les canaux d'acquisition détaillés</li>
+                <li><strong>Templates de campagnes publicitaires</strong> - Facebook Ads, Google Ads, LinkedIn Ads</li>
+                <li><strong>Calendrier éditorial 3 mois</strong> - Prêt à utiliser pour vos réseaux sociaux</li>
+                <li><strong>Liste d'outils gratuits et payants</strong> - Les meilleurs outils par catégorie</li>
+                <li><strong>Études de cas réels</strong> - Campagnes qui ont généré +100K€</li>
+                <li><strong>Scripts de vente</strong> - Pour vos pages de vente et emails</li>
+                <li><strong>Checklist de lancement</strong> - Pour chaque canal d'acquisition</li>
+                <li><strong>Mises à jour gratuites</strong> - Restez à jour avec les nouvelles tendances</li>
+            </ul>
+        </div>
+        
+        <div class="content-section">
+            <h2>🎯 Pour qui ?</h2>
+            <ul>
+                <li><strong>Entrepreneurs</strong> qui veulent acquérir plus de clients</li>
+                <li><strong>Freelances</strong> qui veulent se faire connaître</li>
+                <li><strong>E-commerçants</strong> qui veulent booster leurs ventes</li>
+                <li><strong>Coachs</strong> qui veulent remplir leur agenda</li>
+                <li><strong>Agences</strong> qui veulent proposer plus de services</li>
+                <li><strong>Toute personne</strong> qui veut maîtriser le marketing digital</li>
+            </ul>
+        </div>
+        
+        <div class="content-section">
+            <h2>📚 Au programme</h2>
+            <ul>
+                <li><strong>Module 1 :</strong> Fondamentaux du marketing digital (stratégie, positionnement, persona)</li>
+                <li><strong>Module 2 :</strong> SEO - Référencement naturel (on-page, off-page, technique)</li>
+                <li><strong>Module 3 :</strong> SEA - Publicité Google Ads (search, display, shopping)</li>
+                <li><strong>Module 4 :</strong> Social Media Marketing (Facebook, Instagram, LinkedIn, TikTok)</li>
+                <li><strong>Module 5 :</strong> Email Marketing (séquences, automation, copywriting)</li>
+                <li><strong>Module 6 :</strong> Content Marketing (blog, vidéo, podcast)</li>
+                <li><strong>Module 7 :</strong> Conversion & Optimisation (landing pages, A/B testing)</li>
+                <li><strong>Module 8 :</strong> Analytics & Mesure (KPIs, dashboards, ROI)</li>
+            </ul>
+        </div>
+        
+        <div class="guarantee">
+            Garantie satisfait ou remboursé 30 jours<br>
+            Sans condition ni justification
+        </div>
+        
+        <div style="text-align: center; margin: 50px 0;">
+            <button class="cta-button" onclick="buyProduct()">🚀 Obtenir le guide maintenant</button>
+        </div>
+        
+        <div class="upsell">
+            <h3>🎁 Pack recommandé</h3>
+            <p>Combinez avec le Guide Automatisation pour automatiser votre marketing</p>
+            <a href="guide-automatisation.html" class="upsell-btn">Voir le Guide Automatisation (47€)</a>
+        </div>
+    </div>
+    
+    <script>
+        function buyProduct() {
+            alert('Redirection vers le paiement - Guide Marketing 37€');
+        }
+    </script>
+</body>
+</html>
